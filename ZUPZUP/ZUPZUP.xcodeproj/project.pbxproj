@@ -29,22 +29,9 @@
 		C6AF7F5A2D265EE30044C844 /* ZUPZUPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZUPZUPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		C6688EDF2D278E4E003D9406 /* Exceptions for "ZUPZUP" folder in "ZUPZUP" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = C6AF7F3F2D265EE10044C844 /* ZUPZUP */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		C6AF7F422D265EE10044C844 /* ZUPZUP */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				C6688EDF2D278E4E003D9406 /* Exceptions for "ZUPZUP" folder in "ZUPZUP" target */,
-			);
 			path = ZUPZUP;
 			sourceTree = "<group>";
 		};
@@ -409,6 +396,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ZUPZUP/Preview Content\"";
+				DEVELOPMENT_TEAM = Y8CMK56477;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ZUPZUP/Info.plist;
@@ -439,6 +427,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ZUPZUP/Preview Content\"";
+				DEVELOPMENT_TEAM = Y8CMK56477;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ZUPZUP/Info.plist;
