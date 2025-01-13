@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		ABFD9C082D35387000AFA607 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = ABFD9C072D35387000AFA607 /* FirebaseAuth */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		C6AF7F512D265EE30044C844 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -29,9 +33,22 @@
 		C6AF7F5A2D265EE30044C844 /* ZUPZUPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZUPZUPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		AB2763AE2D353F5400E4DEB7 /* Exceptions for "ZUPZUP" folder in "ZUPZUP" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C6AF7F3F2D265EE10044C844 /* ZUPZUP */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		C6AF7F422D265EE10044C844 /* ZUPZUP */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AB2763AE2D353F5400E4DEB7 /* Exceptions for "ZUPZUP" folder in "ZUPZUP" target */,
+			);
 			path = ZUPZUP;
 			sourceTree = "<group>";
 		};
@@ -52,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABFD9C082D35387000AFA607 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +130,7 @@
 			);
 			name = ZUPZUP;
 			packageProductDependencies = (
+				ABFD9C072D35387000AFA607 /* FirebaseAuth */,
 			);
 			productName = ZUPZUP;
 			productReference = C6AF7F402D265EE10044C844 /* ZUPZUP.app */;
@@ -195,6 +214,9 @@
 			);
 			mainGroup = C6AF7F372D265EE10044C844;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				ABFD9BFD2D3536E800AFA607 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C6AF7F412D265EE10044C844 /* Products */;
 			projectDirPath = "";
@@ -558,6 +580,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ABFD9BFD2D3536E800AFA607 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ABFD9C072D35387000AFA607 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ABFD9BFD2D3536E800AFA607 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C6AF7F382D265EE10044C844 /* Project object */;
 }
