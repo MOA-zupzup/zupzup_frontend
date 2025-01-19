@@ -9,7 +9,7 @@ import SwiftUI
 
 struct StoreView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("추후 업데이트 예정입니다!")
     }
 }
 

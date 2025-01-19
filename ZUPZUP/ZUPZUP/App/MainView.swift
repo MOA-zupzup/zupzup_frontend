@@ -9,12 +9,18 @@ import SwiftUI
 
 struct MainView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
       
       TabView {
-        Text("The First Tab")
-          .tabItem { Image(systemName: "house") }
+        ContentView()
+          .tabItem { Label ("지도", systemImage: "map")}
+        MailboxView()
+          .tabItem { Label ("우편함", systemImage: "envelope")}
+        StoreView()
+          .tabItem { Label ("상점", systemImage: "cart")}
+        MypageView()
+          .tabItem { Label ("마이페이지", systemImage: "person")}
       }
+      .accentColor(.customGreen)
     }
 }
 

@@ -8,11 +8,22 @@
 import SwiftUI
 
 struct MailboxView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+  var body: some View {
+    ScrollView {
+      LazyVStack {
+        ForEach(1...1000, id: \.self) { index in
+          Text("아이템 \(index)")
+            .padding()
+            .frame(maxWidth: .infinity)
+            .background(Color.blue.opacity(0.2))
+            .cornerRadius(8)
+            .padding(.horizontal)
+        }
+      }
     }
+  }
 }
 
 #Preview {
-    MailboxView()
+  MailboxView()
 }
